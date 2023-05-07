@@ -5,6 +5,8 @@ This GitHub is about "DeepSHAP Summary for Adversarial Example Detection".
 ## Phase
 ![image](https://github.com/YiChingLLin/DeepSHAP_summary/blob/main/img/Phase.png)
 
+Process: Phase1_Data_Collection -> Phase2_3_SHAP_Path_exaction -> Phase2_3_Detection
+
 ## Environment
 - matplotlib 3.6.2
 - numpy 1.23.5
