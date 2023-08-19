@@ -2,7 +2,8 @@
 
 This GitHub is about "DeepSHAP Summary for Adversarial Example Detection".
 
-`@INPROCEEDINGS{10190801,
+```python
+@INPROCEEDINGS{10190801,
   author={Lin, Yi-Ching and Yu, Fang},
   booktitle={2023 IEEE/ACM International Workshop on Deep Learning for Testing and Testing for Deep Learning (DeepTest)}, 
   title={DeepSHAP Summary for Adversarial Example Detection}, 
@@ -10,7 +11,8 @@ This GitHub is about "DeepSHAP Summary for Adversarial Example Detection".
   volume={},
   number={},
   pages={17-24},
-  doi={10.1109/DeepTest59248.2023.00010}}`
+  doi={10.1109/DeepTest59248.2023.00010}}
+```
 
 
 ## Phase
