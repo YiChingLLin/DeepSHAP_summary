@@ -18,9 +18,12 @@ This GitHub is about "Effective Adversarial Example Detection with DeepSHAP Summ
 ## Phase
 ![image](https://github.com/YiChingLLin/DeepSHAP_summary/blob/main/img/Phase.png)
 
-- Decision Logic Approach Process: Phase1_Data_Collection -> Phase2_3_SHAP_Path_Exaction (generate_attack_layer(approach = 'path')) -> Phase2_3_Detection
-- Best-Layer SHAP Signature Approach Process: Phase1_Data_Collection -> Phase4_Path_Astraction -> Phase2_3_SHAP_Path_Exaction (generate_attack_single) -> Phase2_3_Detection
-- Activation Status Approach Process: Phase1_Data_Collection -> Phase4_Path_Astraction -> Phase5_Data_Activation -> Phase2_3_Detection
+### Decision Logic Approach Process
+  Phase1_Data_Collection -> Phase2_3_SHAP_Path_Exaction (generate_attack_layer(approach = 'path')) -> Phase2_3_Detection
+### Best-Layer SHAP Signature Approach Process
+  Phase1_Data_Collection -> Phase4_Path_Astraction -> Phase2_3_SHAP_Path_Exaction (generate_attack_single) -> Phase2_3_Detection
+### Activation Status Approach Process
+  Phase1_Data_Collection -> Phase4_Path_Astraction -> Phase5_Data_Activation -> Phase2_3_Detection
 
 ## Environment
 - matplotlib 3.6.2
