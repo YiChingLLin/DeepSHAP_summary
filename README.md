@@ -1,6 +1,6 @@
 # DeepSHAP Summary
 
-This GitHub is about "DeepSHAP Summary for Adversarial Example Detection".
+This GitHub is about "Effective Adversarial Example Detection with DeepSHAP Summary" (under review), and includes advanced approaches from  "DeepSHAP Summary for Adversarial Example Detection".
 
 ```python
 @INPROCEEDINGS{10190801,
@@ -18,7 +18,9 @@ This GitHub is about "DeepSHAP Summary for Adversarial Example Detection".
 ## Phase
 ![image](https://github.com/YiChingLLin/DeepSHAP_summary/blob/main/img/Phase.png)
 
-Process: Phase1_Data_Collection -> Phase2_3_SHAP_Path_exaction -> Phase2_3_Detection
+Decision Logic Approach Process: Phase1_Data_Collection -> Phase2_3_SHAP_Path_exaction (generate_attack_layer(approach = 'path')) -> Phase2_3_Detection
+Best-Layer SHAP Signature Approach Process: Phase1_Data_Collection -> Phase4_Path_astraction -> Phase2_3_SHAP_Path_exaction (generate_attack_singl) -> Phase2_3_Detection
+Activation Status Approach Process: Phase1_Data_Collection -> Phase2_3_SHAP_Path_exaction (generate_attack_layer(approach = 'path')) -> Phase5 (will upload soon) -> Phase2_3_Detection
 
 ## Environment
 - matplotlib 3.6.2
